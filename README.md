@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/nunomaduro/dd/master/art/preview.png" width="300" alt="dd">
+    <a href="https://github.com/nunomaduro/dd/blob/master/README.md"><img src="https://img.shields.io/npm/l/@nunomaduro/dd?style=flat-square" alt="GitHub license" /></a>
     <p align="center">
     <strong>The most popular way of debugging in PHP, is now available in JavaScript</a></strong>.
   </p>
