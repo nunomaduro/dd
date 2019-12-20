@@ -1,0 +1,73 @@
+{
+  "name": "@nunomaduro/dd",
+  "version": "1.0.0",
+  "description": "The most popular way of debugging in PHP, is now avaiable in JavaScript",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "sideEffects": false,
+  "main": "index.js",
+  "module": "dist/dd.esm.js",
+  "types": "dist/dd.d.ts",
+  "scripts": {
+    "build": "node --max-old-space-size=4096 scripts/build.js",
+    "lint": "eslint . --ext .js,.ts --fix && sort-package-json",
+    "pre-commit": "yarn test:lint && yarn test:types",
+    "release": "./scripts/release.sh",
+    "release:publish": "npm publish --verbose --publish --access public",
+    "test:lint": "eslint . --ext .js,.ts",
+    "test:locally": "yarn lint && yarn test:types && yarn test:unit",
+    "test:types": "yarn tsc",
+    "test:unit": "jest --verbose --updateSnapshot",
+    "update": "rm -rf node_modules && rm -f yarn.lock && yarn install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn pre-commit"
+    }
+  },
+  "dependencies": {
+    "eyes": "0.1.8"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.5.2",
+    "@rollup/plugin-json": "^4.0.0",
+    "@types/eyes": "^0.1.31",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.2.2",
+    "eslint-config-algolia": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-functional": "^1.0.0-rc.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^5.0.0",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "fs-extra": "^8.1.0",
+    "husky": "^3.0.4",
+    "jest": "^24.9.0",
+    "jest-mock-console": "^1.0.0",
+    "jest-mock-process": "^1.2.0",
+    "prettier": "^1.18.2",
+    "rollup": "^1.20.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-ignore": "^1.0.5",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "sort-package-json": "^1.23.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "yarn": ">= 1.6.0"
+  }
+}

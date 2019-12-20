@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "strict": true,
+    "sourceMap": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "lib": ["esnext", "dom"],
+    "types": ["jest", "node"],
+    "rootDir": ".",
+    "paths": {
+      "@nunomaduro/dd": ["src"]
+    }
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"]
+}
