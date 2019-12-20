@@ -1,6 +1,6 @@
 {
   "name": "@nunomaduro/dd",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "The most popular way of debugging in PHP, is now avaiable in JavaScript",
   "license": "MIT",
   "files": [
