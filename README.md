@@ -11,7 +11,7 @@ It was created and maintained by **[Nuno Maduro](https://github.com/nunomaduro)*
 ## 🚀 Quick start
 
 ```sh
-// First, install:
+# First, install:
 yarn add @nunomaduro/dd --dev
 ```
 
@@ -20,6 +20,9 @@ yarn add @nunomaduro/dd --dev
 import dd from '@nunomaduro/dd';
 
 dd({ foo: 'bar' });
+
+// Throws an error:
+dd({ foo: 'bar' }).exit();
 ```
 
 ## 💖 Support the development
