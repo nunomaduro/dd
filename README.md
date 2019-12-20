@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nunomaduro/dd/master/art/preview.png" width="300" alt="dd"></img>
+</p>
+<p align="center">
+    <a href="https://github.com/nunomaduro/dd/blob/master/README.md"><img src="https://img.shields.io/npm/l/@nunomaduro/dd?style=flat-square" alt="GitHub license" /></a>
+    <p align="center">
+    <strong>The most popular way of debugging in PHP, is now available in JavaScript</a></strong>.
+  </p>
+</p>
+
 **dd** was carefully crafted to simplify the debugging of your JavaScript code directly from your terminal.
 It was created and maintained by **[Nuno Maduro](https://github.com/nunomaduro)**.
 
