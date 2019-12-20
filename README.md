@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nunomaduro/dd/master/art/preview.png" width="300" alt="dd"></img>
+  <img src="https://raw.githubusercontent.com/nunomaduro/dd/master/art/preview.png" width="500" alt="dd"></img>
 </p>
 <p align="center">
     <a href="https://github.com/nunomaduro/dd/blob/master/README.md"><img src="https://img.shields.io/npm/l/@nunomaduro/dd?style=flat-square" alt="GitHub license" /></a>
