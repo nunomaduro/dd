@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nunomaduro/dd/master/art/preview.png" width="300" alt="dd">
+  <img src="https://raw.githubusercontent.com/nunomaduro/dd/master/art/preview.png" width="500" alt="dd">
     <p align="center">
     <strong>The most popular way of debugging in PHP, is now available in JavaScript</a></strong>.
   </p>
@@ -11,13 +11,13 @@ It was created and maintained by **[Nuno Maduro](https://github.com/nunomaduro)*
 ## 🚀 Quick start
 
 ```sh
-# First, install:
+// First, install:
 yarn add @nunomaduro/dd --dev
 ```
 
 ```js
-# Then, use it:
-import dd from "@nunomaduro/dd";
+// Then, use it:
+import dd from '@nunomaduro/dd';
 
 dd({ foo: 'bar' });
 ```
