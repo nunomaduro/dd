@@ -3,6 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/nunomaduro/dd/blob/master/README.md"><img src="https://img.shields.io/npm/l/@nunomaduro/dd?style=flat-square" alt="GitHub license" /></a>
+    <a href="https://youtube.com/@nunomaduro?sub_confirmation=1"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCO_hYZF2gb_CyG5sA7ArlGg?style=flat&label=youtube&color=brightgreen"></a>
     <p align="center">
     <strong>The most popular way of debugging in PHP is now available in JavaScript</a></strong>.
   </p>
